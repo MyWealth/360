@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .section {
+            overflow: hidden;
+
+        }
+
+        .section_bg {
+            width: 251px;
+            height: 186px;
+            display: block;
+            margin: 100px auto;
+            background: url('./images/logo.png');
+        }
+
+        .img_1 {
+            text-align: center;
+
+        }
+
+        .img_1 img {
+            margin: 0 50px;
+            opacity: 0;
+        }
+
+        .hou img {
+            margin: 0 0;
+            opacity: 1;
+            transition: all 1.5s;
+        }
+
+        .but {
+            width: 772px;
+            height: 49px;
+            background: url('./images/info_1.png');
+            margin: 100px auto;
+
+        }
+
+        .two{
+            width: 450px;
+            margin: 200px 200px;
+            float: left;
+        }
+        .two_1{
+            width: 635px;
+            height: 309px;
+            margin: -593px 935px;
+            float: left;
+        }
+        .two img:nth-child(1){
+            transform: translate(450px,300px) rotate(90deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(2){
+            transform: translate(350px,600px) rotate(180deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(3){
+            transform: translate(540px,200px) rotate(40deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(4){
+            transform: translate(380px,300px) rotate(45deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(5){
+            transform: translate(450px,300px) rotate(50deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(6){
+            transform: translate(360px,200px) rotate(89deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(7){
+            transform: translate(555px,100px) rotate(78deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(8){
+            transform: translate(660px,400px) rotate(66deg);
+            opacity: 0.5;
+        }
+        .two img:nth-child(9){
+            transform: translate(850px,300px) rotate(88deg);
+            opacity: 0.5;
+        }
+         .hou .two img{
+            transform: translate(0) rotate(0);
+            opacity: 1;
+        }
+        .three{
+            width: 631px;
+            height: 271px;
+            float: left;
+            margin: 250px 200px;
+        }
+        .three_1{
+            width: 453px;
+            height: 449px;
+            float: left;
+            margin-left: 240px;
+            margin-top: 200px;
+        }
+        .section:nth-child(3){
+            position: relative;
+        }
+        .three_2{
+            width: 203px;
+            height: 624px;
+            position: absolute;
+            left: 980px;
+            top: 1050px;
+            background: url('./images/rocket.png') no-repeat;
+        }
+        .hou .three_2{
+            left: 1353px;
+            top: 350px;
+            transition: all 1s; 
+        }
+        .four{
+            width: 529px;
+            height: 438px;
+            background: url('./images/search.png') no-repeat;
+            margin-top: 350px;
+            margin-left: -530px;
+            float: left;
+            position: relative;
+            overflow: hidden;
+        }
+        .four span{
+            display: block;
+            width: 0px;
+            height: 22px;
+            background: url('./images/key.png') no-repeat;
+            margin-top: 20px;
+            margin-left: 14px;
+            animation: spans 2.5s 3s steps(5) forwards;
+        }
+        @keyframes spans{
+            from{
+
+            }
+            to{
+                width: 99px;
+            }
+        }
+        .four_1{
+            width: 612px;
+            height: 299px;
+            background:url('./images/info_4.png');
+            margin-left: 1100px;
+            margin-top: -521px;
+            float: left;
+        }
+        .four11{
+            width: 529px;
+            height: 372px;
+           position: absolute;
+           left: 0px;
+           top: 56px;
+        }
+        .four11 div{
+            width: 529px;
+            height: 0px;
+            background: url('./images/result.png') no-repeat;
+        }
+         .hou .four{
+            margin-left: 260px;
+                transition: all 1s;
+        }
+        .hou .four11 div{
+            height: 372px;
+            transition: all 1s 4s;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="section">
+            <span class="section_bg"></span>
+            <div class="img_1">
+                <img src="./images/text_1.png" alt="">
+                <img src="./images/text_2.png" alt="">
+                <img src="./images/text_3.png" alt="">
+                <img src="./images/text_4.png" alt="">
+                <img src="./images/text_5.png" alt="">
+                <img src="./images/text_6.png" alt="">
+                <img src="./images/text_7.png" alt="">
+                <img src="./images/text_8.png" alt="">
+            </div>
+            <div class="but">
+            </div>
+        </div>
+        <div class="section">
+            <div class="two">
+                <img src="./images/shield_1.png" alt="">
+                <img src="./images/shield_2.png" alt="">
+                <img src="./images/shield_3.png" alt="">
+                <img src="./images/shield_4.png" alt="">
+                <img src="./images/shield_5.png" alt="">
+                <img src="./images/shield_6.png" alt="">
+                <img src="./images/shield_7.png" alt="">
+                <img src="./images/shield_8.png" alt="">
+                <img src="./images/shield_9.png" alt="">
+            </div>
+            <div class="two_1">
+                <img src="./images//info_2.png" alt="">
+            </div>
+        </div>
+        <div class="section">
+            <div class="three">
+                <img src="./images/info_3.png" alt="">
+            </div>
+            <div class="three_1">
+                <img src="./images/circle.png" alt="">
+            </div>
+            <div class="three_2"></div>
+        </div>
+        <div class="section">
+            <div class="four">
+                <span></span>
+                <div class="four11">
+                        <div></div>
+                </div>
+            </div>
+            
+            <div class="four_1"></div>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.fullPage.min.js"></script>
+    <script>
+        $('.box').fullpage({
+            sectionsColor: [
+                '#0DA5D6',
+                '#2AB561',
+                '#DE8910',
+                '#16BA9D'
+            ],
+            afterLoad: function (a, key, c) {
+                $('.section').removeClass('hou');
+                setTimeout(function () {
+                    $('.section').eq(key - 1).addClass('hou');
+                    // $('.img_1').addClass('hou');
+                }, 30)
+
+            }
+        })
+    </script>
+</body>
+
+</html>
